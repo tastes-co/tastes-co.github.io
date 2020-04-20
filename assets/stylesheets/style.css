@@ -65,3 +65,7 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: 3em;
 }
+
+@-ms-viewport{
+  width: device-width;
+}
