@@ -30,6 +30,38 @@
   color: #ffc600;
 }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
   background: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-block {
+  padding-top: 3em;
+}
+
+.underconstruction-block {
+  left: 0;
+  right: 0;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.underconstruction {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
 }
